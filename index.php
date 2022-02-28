@@ -74,12 +74,17 @@ $header_info = [
     <title>Esercitazione - GOOGLE FAQ</title>
 </head>
 <style>
+    main {
+        font-size: 0.8rem;
+    }
+
     header {
         height: 100px;
     }
 
     footer {
         height: 100px;
+        background-color: #F8F9FA;
     }
 
     img {
@@ -131,9 +136,9 @@ $header_info = [
     <main>
         <?php foreach ($main_info as $section => $info) : ?>
             <div class="container">
-                <h2><?= $info['title'] ?></h2>
+                <h2 class="pt-4"><?= $info['title'] ?></h2>
                 <?php foreach ($info['paragraphs'] as $paragraph) : ?>
-                    <p><?= $paragraph ?></p>
+                    <p class="pt-3"><?= $paragraph ?></p>
                 <?php endforeach; ?>
             </div>
         <?php endforeach; ?>
