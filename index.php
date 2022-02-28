@@ -42,7 +42,11 @@ $main_info = [
     <header></header>
 
     <!-- Il fulcro delle info andranno qui -->
-    <main></main>
+    <main>
+        <?php foreach ($main_info as $section => $info) : ?>
+            <h2><?= $section ?></h2>
+        <?php endforeach; ?>
+    </main>
 
     <!-- Parte finale del body -->
     <footer></footer>
