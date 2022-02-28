@@ -47,6 +47,9 @@ $main_info = [
         <?php foreach ($main_info as $section => $info) : ?>
             <div class="container">
                 <h2><?= $info['title'] ?></h2>
+                <?php foreach ($info['paragraphs'] as $paragraph) : ?>
+                    <p><?= $paragraph ?></p>
+                <?php endforeach; ?>
             </div>
         <?php endforeach; ?>
     </main>
