@@ -18,6 +18,14 @@ scriveremo qualcosa qua
 </head>
 
 <body>
+    <!-- Parte superiore del body -->
+    <header></header>
+
+    <!-- Il fulcro delle info andranno qui -->
+    <main></main>
+
+    <!-- Parte finale del body -->
+    <footer></footer>
 
 </body>
 
